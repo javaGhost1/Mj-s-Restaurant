@@ -673,11 +673,12 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
 .section-bg {
+  /* background-attachment: fixed; */
   background-image: url("../img/food/menubg.jpg");
   background-position: center center;
   background-size: cover;
@@ -987,7 +988,7 @@ section {
 }
 
 .menu .menu-content::after {
-  content: ".........." "................................" "............................................";
+  content: "" ".............................................." "...........................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -998,8 +999,9 @@ section {
 }
 
 .menu .menu-content a {
-  padding-right: 10px;
-  /* background: #1a1814; */
+  padding-right: 5px;
+  overflow: hidden;
+  background: rgba(133, 33, 33, 0.568);
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -1033,6 +1035,8 @@ section {
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
+  background-color: rgba(165, 42, 42, 0.301);
+  background-attachment: fixed;
 }
 
 .specials .nav-tabs {
