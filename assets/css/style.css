@@ -676,8 +676,10 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-
-.section-bg {
+.section-bg{
+  background-color: #1a1814;
+}
+.menu {
   /* background-attachment: fixed; */
   background-image: url("../img/food/menubg.jpg");
   background-position: center center;
@@ -974,6 +976,7 @@ section {
 
 .menu .menu-img {
   width: 70px;
+  height: 70px;
   border-radius: 50%;
   float: left;
   border: 5px solid rgba(255, 255, 255, 0.2);
@@ -1497,6 +1500,7 @@ section {
 }
 
 .contact .info h4 {
+  width: fit-content;
   padding: 0 0 0 60px;
   font-size: 18px;
   font-weight: 500;
@@ -1505,6 +1509,7 @@ section {
 }
 
 .contact .info p {
+  width: fit-content;
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
