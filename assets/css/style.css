@@ -950,7 +950,7 @@ section {
 .menu #menu-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 8px 12px 10px 12px;
+  padding: 8px 10px 10px 10px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -972,16 +972,9 @@ section {
 
 .menu .menu-item {
   /* display: none; */
-  margin-top: 50px;
+  margin-top: 30px;
 }
-.menu .home-h{
-  visibility: hidden;
 
-  display: none;
-}
-.home-h .filter-active{
-  display: block;
-}
 .menu .menu-item{
   display: block;
 }
@@ -1037,6 +1030,17 @@ section {
   color: #cda45e;
 }
 
+.filter-hot .menu-content{
+  padding: 0 5px;
+  margin-left: 0px;
+  position: relative;
+}
+.filter-hot .menu-content a{
+  padding: 0px;
+}
+.filter-snacks .menu-content{
+  margin-left: 0px;
+}
 .menu .menu-ingredients {
   margin-left: 85px;
   font-style: italic;
