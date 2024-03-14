@@ -191,6 +191,8 @@
         menuFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
+
+        // Add 'active class to the clicked filter option
         this.classList.add('filter-active');
 
         menuIsotope.arrange({

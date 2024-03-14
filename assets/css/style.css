@@ -141,7 +141,7 @@ h6 {
 
 #topbar .contact-info i span {
   padding-left: 5px;
-  color: #fff;
+  color: black;
 }
 
 #topbar .languages ul {
@@ -971,7 +971,19 @@ section {
 }
 
 .menu .menu-item {
+  /* display: none; */
   margin-top: 50px;
+}
+.menu .home-h{
+  visibility: hidden;
+
+  display: none;
+}
+.menu .home-h.active{
+  display: block;
+}
+.menu .menu-item{
+  display: block;
 }
 
 .menu .menu-img {
