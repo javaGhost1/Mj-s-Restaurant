@@ -979,7 +979,7 @@ section {
 
   display: none;
 }
-.menu .home-h.active{
+.home-h .filter-active{
   display: block;
 }
 .menu .menu-item{
