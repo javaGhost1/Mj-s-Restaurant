@@ -62,6 +62,8 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
+  // Dropdown links
+ 
   /**
    * Scrolls to an element with header offset
    */

@@ -31,17 +31,13 @@
 </head>
 
 <body>
-
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
-
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-phone d-flex align-items-center"><span>0799..</span></i>
         <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
-      </div>
-
-     
+      </div>   
     </div>
   </div>
 
@@ -51,7 +47,7 @@
 
       <h1 class="logo me-auto me-lg-0"><a href="index.html">MJ'S DELIGHT</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -62,19 +58,26 @@
           <!-- <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li> -->
           <li class="dropdown"><a href="#"><span>Cuisine</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#">Main Dishes</a></li>
+              <li class="dropdown"><a href="#"><span>Special Dishes </span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link scrollto" data-bs-toggle="tab" href="#">Chicken Curry</a>
+                  </li>
+                  <!-- <li><a class="nav-link scrollto" href="#chicken">Chicken Curry</a></li> -->
+                  <li>
+                    <a class="nav-link scrollto" data-bs-toggle="tab" href="#t">Lemon Chicken</a>
+
+                  </li>
+                  
+                  <li><a href="#">Beef stir fry</a></li>
+                  <li><a href="#">Goat Meat</a></li>
+                  <li><a href="#">Whole Fish</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Beverages</a></li>
+              <li><a href="#">Snacks</a></li>
+              <li><a href="#">Location</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -96,7 +99,7 @@
 
           </div>
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">View Menu</a>
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Menu</a>
             <!-- <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a> -->
           </div>
         </div>
@@ -146,42 +149,7 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <!-- <section id="why-us" class="why-us">
-      <div class="container" data-aos="fade-up">
 
-      
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>End Why Us Section -->
 
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu section-bg">
@@ -195,7 +163,7 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
-              <li data-filter=".filter-starters" class="filter-starters">All</li>
+              <li data-filter=".filter-starters" class="filter-starters filter-active">All</li>
               <li data-filter=".filter-breakfast">Breakfast</li>
               <li data-filter=".filter-hot">Drinks</li>
               <!-- <li data-filter=".filter-specialty">Specialty</li> -->
@@ -598,7 +566,7 @@
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-3">
+          <div  class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
                 <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Chicken Curry</a>
@@ -819,74 +787,7 @@
 
 
     <!-- ======= Chefs Section ======= -->
-    <!-- <section id="chefs" class="chefs">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Chefs</h2>
-          <p>Our Proffesional Chefs</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Master Chef</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Patissier</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>Cook</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>End Chefs Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -899,7 +800,9 @@
       </div>
 
       <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+       
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7998994318836!2d{{-1.2013311452007784}}!3d{{36.897537998131085}}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1883df8a3c49%3A0x192835ef70d3e2b5!2sKamiti%20Road%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1647521477319" frameborder="0" allowfullscreen></iframe>
+
       </div>
 
       <div class="container" data-aos="fade-up">
@@ -912,7 +815,7 @@
               <div class="address pt-5">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, Kenya, NY 535022</p>
+                <p>QVXX+92J, Kamiti Rd, Githurai, Kenya</p>
               </div>
             </div>
             <div class="col-md-3">
@@ -921,7 +824,7 @@
                 <h4>Open Hours:</h4>
                 <p>
                   Monday-Saturday:<br>
-                  11:00 AM - 2300 PM
+                  7:00 AM - 1800 PM
                 </p>
               </div>
             </div>
@@ -938,7 +841,7 @@
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>‎+254 797 077750</p>
               </div>
             </div>
              
@@ -966,9 +869,9 @@
             <div class="footer-info">
               <h3>MJ'S DELIGHT</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
+                QVXX+92J, Kamiti Rd <br>
+                Githurai, Kenya<br><br>
+                <strong>Phone:</strong> ‎+254 797 077750<br>
                 <strong>Email:</strong> info@example.com<br>
               </p>
               <div class="social-links mt-3">
