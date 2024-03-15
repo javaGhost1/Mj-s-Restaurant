@@ -394,7 +394,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: rgba(245, 245, 245, 0.8);
   overflow-y: auto;
   transition: 0.3s;
 }
