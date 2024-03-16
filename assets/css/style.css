@@ -1510,6 +1510,8 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
+  margin: auto;
+  justify-content: center;
 }
 
 .contact .info i {
